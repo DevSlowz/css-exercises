@@ -1,0 +1,31 @@
+/* 
+- Do the odd numbered `p` elements share a class?
+- Do the even numbered `div` elements have unique IDs?
+- Does the Number 3 element have multiple classes?
+
+*/
+
+.odd_paragraph {
+    background-color: #ffa7a7;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* **The second element**: blue text and a font size of 36px */
+#second_element {
+  color: #0000ff;
+  font-size: 36px;
+}
+
+/* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px */
+
+.third_element {
+    font-size: 24px;
+}
+
+/* **The fourth element**: a light green background, a font size of 24px, and bold */
+
+.fourth_element {
+    background-color: #80ff80;
+    font-size: 24px;
+    font-weight: bold;
+}
