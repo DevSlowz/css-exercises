@@ -4,6 +4,11 @@ body {
   min-height: 100vh;
 }
 
+.body {
+  display: flex;
+  flex: 1;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -20,6 +25,9 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  
 }
 
 .card {
